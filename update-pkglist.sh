@@ -1,7 +1,7 @@
 #!/bin/bash
 cd ~/.dotfiles || exit
-pacman -Qqe > pkglist/pkglist.txt
-pacman -Qqem > pkglist/aurlist.txt
+pacman -Qqe > pkglists/pkglist.txt
+pacman -Qqem > pkglists/aurlist.txt
 
 if ! git diff --quiet; then
     git add pkglists/
