@@ -24,16 +24,28 @@ sudo pacman -S --needed - < pkglist.txt
 yay -S --needed - < aurlist.txt
 ```
 
-## Installing the Pacman Hook
+## Setting Up the Auto-Commit Hook
 
+1. Make the script executable:
+```bash
+chmod +x update-pkglist.sh
+```
+
+2. Install the pacman hook:
 ```bash
 sudo cp pkglist-git.hook /etc/pacman.d/hooks/
 ```
 
-Once installed, the hook automatically updates `pkglist.txt` and `aurlist.txt` and commits/pushes them to this repo after every `pacman`/`yay` install, remove, or upgrade — no manual steps needed.
+3. Make sure the paths inside `update-pkglist.sh` and `pkglist-git.hook` (the `Exec=` line) point to the actual location of this repo on your machine.
+
+Once installed, the hook automatically regenerates `pkglist.txt` and `aurlist.txt` and commits/pushes them to this repo after every `pacman`/`yay` install, remove, or upgrade — no manual steps needed.
 
 ## Requirements
 
 - Arch Linux
 - [yay](https://github.com/Jguer/yay) (AUR helper)
 - git, configured with SSH access to this repo (for the auto-commit hook to work)
+- `core.editor` set to something other than `vi` if it's not installed, e.g.:
+```bash
+git config --global core.editor "nano"
+```
