@@ -15,7 +15,6 @@ cliphist
 cmake
 cmatrix
 code
-cowsay
 dart
 detect-it-easy-bin
 discord
