@@ -1,5 +1,5 @@
 #!/bin/bash
-cd ~/dotfiles || exit
+cd ~/.dotfiles || exit
 pacman -Qqe > pkglists/pkglist.txt
 pacman -Qqem > pkglists/aurlist.txt
 
