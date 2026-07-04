@@ -1,0 +1,12 @@
+[Trigger]
+Operation = Install
+Operation = Remove
+Operation = Upgrade
+Type = Package
+Target = *
+
+[Action]
+Description = Updating package list in git...
+When = PostTransaction
+Exec = /home/nightyum/.dotfiles/update-pkglist.sh
+RunAs = nightyum
