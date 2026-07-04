@@ -40,12 +40,30 @@ sudo cp pkglist-git.hook /etc/pacman.d/hooks/
 
 Once installed, the hook automatically regenerates `pkglist.txt` and `aurlist.txt` and commits/pushes them to this repo after every `pacman`/`yay` install, remove, or upgrade — no manual steps needed.
 
+## Testing the Hook
+
+To verify the hook actually triggers on install/remove (not just when running the script manually):
+
+```bash
+# Install a small test package
+sudo pacman -S cowsay
+
+# Check that a new commit was created and pushed
+cd ~/.dotfiles
+git log --oneline -3
+
+# Remove it and check again
+sudo pacman -R cowsay
+git log --oneline -3
+```
+
+If a new commit shows up after each command, the hook is working correctly.
+
+> Note: if the package is already installed, pacman will skip the transaction entirely
+> (`there is nothing to do`), and the hook won't fire. Use `-R` first if you need to re-test `-S`.
+
 ## Requirements
 
 - Arch Linux
 - [yay](https://github.com/Jguer/yay) (AUR helper)
 - git, configured with SSH access to this repo (for the auto-commit hook to work)
-- `core.editor` set to something other than `vi` if it's not installed, e.g.:
-```bash
-git config --global core.editor "nano"
-```
