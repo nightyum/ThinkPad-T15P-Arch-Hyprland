@@ -80,6 +80,7 @@ thermald
 ttf-nerd-fonts-symbols
 ufw
 unzip
+usbutils
 uv
 vencord-installer
 vim
