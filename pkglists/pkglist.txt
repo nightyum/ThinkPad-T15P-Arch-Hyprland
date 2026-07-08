@@ -46,7 +46,6 @@ linux
 linux-firmware
 linux-headers
 mesa-utils
-micro
 mpv
 nano
 ncdu
