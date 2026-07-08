@@ -5,7 +5,6 @@ envycontrol
 postman-bin
 spotify
 spotify-adblock
-vencord-installer
 yay
 yay-debug
 zen-browser-bin

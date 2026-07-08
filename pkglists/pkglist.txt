@@ -80,7 +80,6 @@ ufw
 unzip
 usbutils
 uv
-vencord-installer
 vim
 virt-manager
 whois
