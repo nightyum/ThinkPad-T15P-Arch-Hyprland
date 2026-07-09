@@ -17,6 +17,7 @@ cmatrix
 code
 dart
 detect-it-easy-bin
+discord
 dnsmasq
 docker
 docker-compose
