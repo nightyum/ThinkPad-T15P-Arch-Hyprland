@@ -65,6 +65,7 @@ qbittorrent
 qemu-full
 radare2
 rclone
+refind
 sddm
 slurp
 sof-firmware
