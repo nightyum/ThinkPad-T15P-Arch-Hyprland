@@ -63,10 +63,9 @@ polkit-gnome
 postman-bin
 qbittorrent
 qemu-full
-qt6-multimedia-ffmpeg
-qt6-virtualkeyboard
 radare2
 rclone
+redhat-fonts
 refind
 sddm
 slurp
