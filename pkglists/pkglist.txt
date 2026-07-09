@@ -65,9 +65,9 @@ qbittorrent
 qemu-full
 radare2
 rclone
-redhat-fonts
 refind
 sddm
+sddm-silent-theme
 slurp
 sof-firmware
 spotify

@@ -3,7 +3,7 @@ caelestia-shell
 detect-it-easy-bin
 envycontrol
 postman-bin
-redhat-fonts
+sddm-silent-theme
 spotify
 spotify-adblock
 yay
