@@ -55,7 +55,6 @@ nvidia-open-dkms
 nvidia-settings
 nvidia-utils
 obsidian
-os-prober
 pipewire-audio
 pipewire-pulse
 polkit-gnome
