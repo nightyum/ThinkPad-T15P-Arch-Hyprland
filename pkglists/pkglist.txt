@@ -69,6 +69,7 @@ slurp
 sof-firmware
 spotify
 spotify-adblock
+steam
 swayimg
 tcc
 telegram-desktop
