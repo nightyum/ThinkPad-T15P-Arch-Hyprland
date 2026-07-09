@@ -33,7 +33,6 @@ git
 github-cli
 gnome-keyring
 grim
-grub
 hyprland
 intel-media-driver
 intel-ucode
