@@ -85,6 +85,7 @@ virt-manager
 whois
 wireplumber
 wl-clipboard
+xdg-desktop-portal-hyprland
 xwayland-satellite
 yay
 yay-debug
