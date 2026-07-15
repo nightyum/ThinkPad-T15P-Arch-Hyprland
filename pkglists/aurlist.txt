@@ -1,3 +1,5 @@
+64gram-desktop-bin
+64gram-desktop-bin-debug
 anixapp
 auto-cpufreq
 caelestia-shell

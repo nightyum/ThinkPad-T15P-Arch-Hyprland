@@ -1,3 +1,5 @@
+64gram-desktop-bin
+64gram-desktop-bin-debug
 acpi_call-dkms
 adw-gtk-theme
 alsa-firmware
