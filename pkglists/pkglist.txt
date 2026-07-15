@@ -3,6 +3,7 @@ adw-gtk-theme
 alsa-firmware
 alsa-utils
 android-tools
+anixapp
 auto-cpufreq
 awww
 base

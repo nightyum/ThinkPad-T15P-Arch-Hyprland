@@ -1,3 +1,4 @@
+anixapp
 auto-cpufreq
 caelestia-shell
 detect-it-easy-bin
