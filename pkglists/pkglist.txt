@@ -82,6 +82,7 @@ usbutils
 uv
 vim
 virt-manager
+waydroid
 whois
 wireplumber
 wl-clipboard
